@@ -23,7 +23,7 @@
 ![Imagem da arquitetura da solução.](images/arquitetura.jpg)
 
 ## Vídeo da solução
-[![Vídeo IoT](http://img.youtube.com/vi/3V5XxM7scrQ/0.jpg)](http://www.youtube.com/watch?v=3V5XxM7scrQ)
+[![Vídeo IoT](http://img.youtube.com/vi/Af6-43aSI-8/0.jpg)](http://www.youtube.com/watch?v=Af6-43aSI-8)
 
 ## Broker personalizado
 O Mosquitto é um broker de mensagens leve e de código aberto que implementa o protocolo MQTT, usado principalmente em Internet das Coisas (IoT). Ele facilita a comunicação entre dispositivos, permitindo que publiquem e assinem mensagens em um sistema de publicação/assinatura. O MQTT é ideal para dispositivos com baixo consumo de energia e redes de baixa largura de banda. O Mosquitto é escalável e eficiente, sendo usado em projetos de automação, monitoramento e redes IoT.\

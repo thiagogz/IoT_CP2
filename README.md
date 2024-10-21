@@ -1,4 +1,4 @@
-# Disruptive Archtectures - IoT - Checkpoint 02
+# Disruptive Architectures - IoT - Checkpoint 02
 
 ## Sumário
 - [Integrantes;](#integrantes)

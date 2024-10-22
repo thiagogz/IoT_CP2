@@ -48,13 +48,14 @@ Após isso, basta restartar o mosquitto:\
 
 ## Configurações da aplicação
 As placas ESP32 estão sendo utilizadas pelo Wokwi. Dessa maneira, a configuração de conexão com a internet é feita com o seguinte código:\
-**`const char*ssid = "Wokwi-GUEST";`**\
+**`const char* ssid = "Wokwi-GUEST";`**\
 **`const char* password = "";`**\
 \
 Dessa forma, as placas (tanto a publisher como a subscriber) se conectam com a internet por meio do servidor do Wokwi. Em seguida, são inscritas
 nos tópicos "CPTemperatura" e "CPUmidade", de modo a enviar os dados simulados pelo DHT22 na publisher e a serem recebidos pela subscriber. Além disso, 
 o servidor do NODE-RED também está conectado aos mesmos topics, recebendo as mesmas informações e criando dashboards para a representação tanto da
 alteração em gráfico de linha, como a representação em um "gauge", mostrando e definindo os valores. Essa configuração é feita a partir do seguinte código:\
+\
 (Conexão com o servidor do Mosquitto pela VM criada na Azure)\
 **`const char* mqtt_server = "191.234.211.26";`**\
 (Inscrição no tópico "CPTemperatura")\

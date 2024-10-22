@@ -5,7 +5,8 @@
 - [Arquitetura da solução;](#arquitetura-da-solução)
 - [Vídeo da solução;](#vídeo-da-solução)
 - [Broker personalizado;](#broker-personalizado)
-- [Configurações da aplicação.](#configurações-da-aplicação)
+- [Configurações da aplicação;](#configurações-da-aplicação)
+- [Link das placas.](#link-das-placas)
 
 ## Integrantes
 - Beatriz Lucas - RM99104;
@@ -68,3 +69,7 @@ A conexão com o servidor acontece com a configuação **`client.setServer(mqtt_
 - LED Vermelho: Dados de temperatura abaixo de 20ºC e umidade abaixo de 50%.
 
 Dessa forma, as placas conversam entre si, enviando e consumindo informações de temperatura e umidade, respondendo pelos LEDs a situação em que se encontra o DHT22 e criando Dashboards no NODE-RED.
+
+## Link das placas
+Publisher: https://wokwi.com/projects/412361981336209409 \
+Subscriber: https://wokwi.com/projects/412362046757935105
